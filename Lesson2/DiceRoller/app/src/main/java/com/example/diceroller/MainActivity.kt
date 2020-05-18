@@ -18,6 +18,9 @@ class MainActivity : AppCompatActivity() {
 
         val countUpButton: Button = findViewById(R.id.count_up_button)
         countUpButton.setOnClickListener { countUp() }
+
+        val resetButton: Button = findViewById(R.id.reset_button)
+        resetButton.setOnClickListener { reset() }
     }
 
     private fun rollDice() {
@@ -27,7 +30,7 @@ class MainActivity : AppCompatActivity() {
 //        Toast.makeText(this, "button clicked", Toast.LENGTH_SHORT).show()
     }
 
-    private  fun countUp() {
+    private fun countUp() {
         val resultText: TextView = findViewById(R.id.result_text)
         if (resultText.text == "Hello World!") {
             resultText.text = "1"
@@ -39,5 +42,14 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
+
+    /**
+     * テキストの数値をリセットする
+     */
+    private fun reset() {
+        var resultText: TextView = findViewById(R.id.result_text)
+        resultText.text = "0"
+    }
+
 
 }

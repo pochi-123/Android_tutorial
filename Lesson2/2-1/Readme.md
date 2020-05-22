@@ -15,5 +15,5 @@
   <http://blog.loadlimits.info/2014/07/%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E3%81%ABthis-tag-and-its-children-can-be-replaced-by-one-textview-and-a-compound-drawable%E3%82%92%E6%B6%88%E3%81%99%E6%96%B9%E6%B3%95/>
 5. スクロールビューを追加
 6. スクロールビューにテキスト追加<br>
-  3で設定したスタイルを適応させる<br>
-  余白の設定
+  3で設定したスタイルを適応させる
+7.
